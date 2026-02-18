@@ -1,0 +1,331 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scene4X Workshop @ ECCV</title>
+  <meta name="description" content="Scene4X Workshop at ECCV: Learning Spatial Worlds for Autonomous Intelligence" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">Scene4X @ ECCV</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#cfp">CFP</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#speakers">Keynotes</a></li>
+        <li><a href="#paper-track">Paper Track</a></li>
+        <li><a href="#challenge-tracks">Challenge Tracks</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+        <li><a href="#pc">Program Committee</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="tag">ECCV Workshop</p>
+      <h1>Scene4X: Learning Spatial Worlds for Autonomous Intelligence</h1>
+      <p class="subtitle">A focused venue connecting scene learning, world modeling, and embodied autonomy.</p>
+      <p class="event-line">September 8th, 2026 · in Malmö, Sweden · In conjunction with ECCV</p>
+      <div class="hero-meta">
+        <a class="meta-chip glossy-chip" href="#cfp"><i class="bi bi-file-earmark-text" aria-hidden="true"></i>Call for Papers</a>
+        <a class="meta-chip glossy-chip" href="#challenge-tracks"><i class="bi bi-trophy" aria-hidden="true"></i>Challenge Tracks</a>
+      </div>
+      <div class="hero-wireframe" aria-hidden="true">
+        <svg class="wire-svg" viewBox="0 0 900 340" preserveAspectRatio="none">
+          <g class="scene-layer scene-grid">
+            <polyline points="0,250 85,220 155,245 260,180 350,205 440,130 530,170 620,100 730,145 810,90 900,120"></polyline>
+            <polyline points="0,280 105,250 190,280 300,220 390,245 500,190 590,220 670,175 760,210 840,170 900,190"></polyline>
+            <polyline points="0,305 120,285 225,305 315,270 420,300 520,255 615,285 710,250 805,280 900,260"></polyline>
+          </g>
+          <g class="triangles-flow">
+            <polygon class="tri t1" points="85,220 100,212 97,231"></polygon>
+            <polygon class="tri t2" points="155,245 171,236 166,255"></polygon>
+            <polygon class="tri t3" points="260,180 276,171 271,190"></polygon>
+            <polygon class="tri t4" points="350,205 366,196 361,216"></polygon>
+            <polygon class="tri t5" points="440,130 456,121 451,140"></polygon>
+            <polygon class="tri t6" points="530,170 546,161 541,181"></polygon>
+            <polygon class="tri t7" points="620,100 636,91 631,110"></polygon>
+            <polygon class="tri t8" points="730,145 746,136 741,155"></polygon>
+            <polygon class="tri t9" points="810,90 826,81 821,100"></polygon>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="introduction" class="section container">
+      <h2>Introduction</h2>
+      <h3>Abstract</h3>
+      <p>
+        Spatial world understanding is fundamental to autonomous intelligence. Recent advances in 3D/4D scene reconstruction,
+        generative models, foundation models, and world models have enabled increasingly realistic environment modeling, yet
+        most approaches remain disconnected from downstream autonomy, limiting their impact on decision-making, simulation,
+        and real-world deployment.
+      </p>
+      <p>
+        Scene4X bridges scene learning and autonomous intelligence by unifying spatial representation learning, generative world
+        models, and embodied reasoning. The workshop focuses on geometry-aware, dynamic, and uncertainty-aware spatial worlds
+        that directly support downstream tasks in autonomous driving, robotics, and aerial systems.
+      </p>
+      <p>
+        We invite contributions on 3D/4D reconstruction, generative neural representations, multimodal spatial foundation models,
+        world models for closed-loop simulation, and applications to planning and safety evaluation. Scene4X will feature invited talks,
+        paper presentations, a panel discussion, and multiple challenge tracks to promote reproducible evaluation.
+      </p>
+      <p>
+        By connecting scene modeling with action and autonomy, Scene4X advances a new paradigm: learning scenes not only to render
+        them, but to reason, simulate, and act within them.
+      </p>
+    </section>
+
+    <section id="topics" class="section container">
+      <h2>Topic of Interest</h2>
+      <div class="grid two-col">
+        <article class="card">
+          <h3>Spatial Representation & Reconstruction</h3>
+          <ul>
+            <li>3D/4D reconstruction and dynamic scene understanding</li>
+            <li>Neural fields, Gaussian representations, and geometry-aware learning</li>
+            <li>Cross-view consistency, temporal coherence, and uncertainty estimation</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Generative World Models</h3>
+          <ul>
+            <li>Controllable scene generation and video world simulation</li>
+            <li>Physics-aware and interaction-aware generation</li>
+            <li>Closed-loop world models for policy development and testing</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Foundation Models for Spatial Intelligence</h3>
+          <ul>
+            <li>Multimodal pretraining for spatial reasoning</li>
+            <li>Language-grounded scene understanding and embodied QA</li>
+            <li>Generalization across domains, sensors, and environments</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Autonomy Applications</h3>
+          <ul>
+            <li>Autonomous driving, robotics, and aerial systems</li>
+            <li>Planning, risk assessment, and safety evaluation</li>
+            <li>Sim2real transfer and reproducible benchmarks</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="cfp" class="section container">
+      <h2>Call for Papers Timeline</h2>
+      <div class="milestone-grid">
+        <article class="milestone-card card">
+          <p class="milestone-label"><i class="bi bi-send-check" aria-hidden="true"></i>Paper Submission Deadline</p>
+          <h3>June 28, 2026</h3>
+          <p>All paper-track submissions due at 23:59 AoE.</p>
+        </article>
+        <article class="milestone-card card">
+          <p class="milestone-label"><i class="bi bi-flag" aria-hidden="true"></i>Challenge Final Submission</p>
+          <h3>July 8, 2026</h3>
+          <p>Final challenge predictions, reports, and code packages due.</p>
+        </article>
+        <article class="milestone-card card">
+          <p class="milestone-label"><i class="bi bi-envelope-check" aria-hidden="true"></i>Notification of Acceptance</p>
+          <h3>July 22, 2026</h3>
+          <p>Decision release for paper and challenge tracks.</p>
+        </article>
+        <article class="milestone-card card">
+          <p class="milestone-label"><i class="bi bi-file-earmark-check" aria-hidden="true"></i>Camera-ready and Poster</p>
+          <h3>August 5, 2026</h3>
+          <p>Camera-ready PDFs and poster files submission deadline.</p>
+        </article>
+      </div>
+      <p class="note">Dates are indicative and will be aligned with final ECCV workshop timelines.</p>
+    </section>
+
+    <section id="schedule" class="section container">
+      <h2>Schedule (Tentative)</h2>
+      <div class="timeline">
+        <div class="slot"><span>09:00 - 09:10</span><p><i class="bi bi-stars slot-icon" aria-hidden="true"></i>Research Highlights</p></div>
+        <div class="slot"><span>09:10 - 09:45</span><p><i class="bi bi-mic slot-icon" aria-hidden="true"></i>Keynote Presentation 1</p></div>
+        <div class="slot"><span>09:45 - 10:20</span><p><i class="bi bi-mic slot-icon" aria-hidden="true"></i>Keynote Presentation 2</p></div>
+        <div class="slot"><span>10:20 - 10:40</span><p><i class="bi bi-cup-hot slot-icon" aria-hidden="true"></i>Coffee Break &amp; Poster Session</p></div>
+        <div class="slot"><span>10:40 - 11:15</span><p><i class="bi bi-mic slot-icon" aria-hidden="true"></i>Keynote Presentation 3</p></div>
+        <div class="slot"><span>11:15 - 11:50</span><p><i class="bi bi-mic slot-icon" aria-hidden="true"></i>Keynote Presentation 4</p></div>
+        <div class="slot"><span>12:00 - 13:00</span><p><i class="bi bi-fork-knife slot-icon" aria-hidden="true"></i>Lunch Break</p></div>
+        <div class="slot"><span>13:00 - 13:35</span><p><i class="bi bi-mic slot-icon" aria-hidden="true"></i>Keynote Presentation 5</p></div>
+        <div class="slot"><span>13:35 - 14:10</span><p><i class="bi bi-mic slot-icon" aria-hidden="true"></i>Keynote Presentation 6</p></div>
+        <div class="slot"><span>14:10 - 14:45</span><p><i class="bi bi-mic slot-icon" aria-hidden="true"></i>Keynote Presentation 7</p></div>
+        <div class="slot"><span>14:45 - 15:30</span><p><i class="bi bi-people slot-icon" aria-hidden="true"></i>Panel Discussion</p></div>
+        <div class="slot"><span>15:30 - 15:50</span><p><i class="bi bi-cup-hot slot-icon" aria-hidden="true"></i>Coffee Break &amp; Poster Session</p></div>
+        <div class="slot"><span>15:50 - 16:00</span><p><i class="bi bi-file-earmark-text slot-icon" aria-hidden="true"></i>Paper Oral 1</p></div>
+        <div class="slot"><span>16:00 - 16:10</span><p><i class="bi bi-file-earmark-text slot-icon" aria-hidden="true"></i>Paper Oral 2</p></div>
+        <div class="slot"><span>16:10 - 16:20</span><p><i class="bi bi-file-earmark-text slot-icon" aria-hidden="true"></i>Paper Oral 3</p></div>
+        <div class="slot"><span>16:20 - 16:30</span><p><i class="bi bi-trophy slot-icon" aria-hidden="true"></i>Challenge Winner Oral 1</p></div>
+        <div class="slot"><span>16:30 - 16:40</span><p><i class="bi bi-trophy slot-icon" aria-hidden="true"></i>Challenge Winner Oral 2</p></div>
+        <div class="slot"><span>16:40 - 16:50</span><p><i class="bi bi-award slot-icon" aria-hidden="true"></i>Awards Ceremony</p></div>
+        <div class="slot"><span>16:50 - 17:00</span><p><i class="bi bi-flag slot-icon" aria-hidden="true"></i>Closing &amp; Final Remarks</p></div>
+      </div>
+      <p class="note">Tentative workshop schedule for Scene4X.</p>
+    </section>
+
+    <section id="speakers" class="section container">
+      <h2>Invited Speakers</h2>
+      <div class="grid three-col">
+        <article class="card speaker profile-card">
+          <p class="invite-tag">Invited Speaker</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+          <div class="logo-placeholder" aria-hidden="true">Affiliation Logo Placeholder</div>
+        </article>
+        <article class="card speaker profile-card">
+          <p class="invite-tag">Invited Speaker</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+          <div class="logo-placeholder" aria-hidden="true">Affiliation Logo Placeholder</div>
+        </article>
+        <article class="card speaker profile-card">
+          <p class="invite-tag">Invited Speaker</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+          <div class="logo-placeholder" aria-hidden="true">Affiliation Logo Placeholder</div>
+        </article>
+      </div>
+      <p class="note">Invited speaker lineup is being finalized and will be updated soon.</p>
+    </section>
+
+    <section id="paper-track" class="section container">
+      <h2>Paper Track</h2>
+      <div class="card">
+        <ul>
+          <li>Archival and non-archival workshop submissions are both welcome.</li>
+          <li>Submission topics cover all Scene4X core themes and interdisciplinary applications.</li>
+          <li>Double-blind reviewing with emphasis on novelty, technical quality, and reproducibility.</li>
+          <li>Accepted papers will be presented as oral spotlight or poster presentations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="challenge-tracks" class="section container">
+      <h2>Challenge Tracks</h2>
+      <div class="grid two-col">
+        <article class="card">
+          <h3><i class="bi bi-bounding-box-circles" aria-hidden="true"></i> Track 1: Dynamic Scene Reconstruction</h3>
+          <p>Benchmarking temporally consistent 4D reconstruction under real-world motion.</p>
+        </article>
+        <article class="card">
+          <h3><i class="bi bi-diagram-3" aria-hidden="true"></i> Track 2: Spatial-Reasoning World Models</h3>
+          <p>Evaluating generative world models for forecasting, interaction, and failure prediction.</p>
+        </article>
+        <article class="card">
+          <h3><i class="bi bi-cpu" aria-hidden="true"></i> Track 3: Closed-loop Simulation for Planning</h3>
+          <p>Assessing autonomy performance in simulation environments built from learned scenes.</p>
+        </article>
+        <article class="card">
+          <h3><i class="bi bi-shield-check" aria-hidden="true"></i> Track 4: Safety-Critical Scene Understanding</h3>
+          <p>Stress-testing uncertainty-aware models under long-tail and corner-case scenarios.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="awards" class="section container">
+      <h2>Paper Awards</h2>
+      <div class="card">
+        <ul>
+          <li>Best Paper Award</li>
+          <li>Best Student Paper Award</li>
+          <li>Best Reproducibility Paper Award</li>
+        </ul>
+      </div>
+
+      <h2>Challenge Awards</h2>
+      <div class="card">
+        <ul>
+          <li>Champion Team Award (per track)</li>
+          <li>Most Innovative Solution Award</li>
+          <li>Open Science and Reproducibility Award</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="organizers" class="section container">
+      <h2>Invited Organizers</h2>
+      <div class="grid three-col">
+        <article class="card profile-card">
+          <p class="invite-tag">Invited Organizer</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+        </article>
+        <article class="card profile-card">
+          <p class="invite-tag">Invited Organizer</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+        </article>
+        <article class="card profile-card">
+          <p class="invite-tag">Invited Organizer</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+        </article>
+        <article class="card profile-card">
+          <p class="invite-tag">Invited Organizer</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+        </article>
+        <article class="card profile-card">
+          <p class="invite-tag">Invited Organizer</p>
+          <div class="photo-placeholder" aria-hidden="true">Photo Placeholder</div>
+          <h3>Name Placeholder</h3>
+          <p class="org">Affiliation Placeholder</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pc" class="section container">
+      <h2>Invited Program Committee</h2>
+      <div class="card">
+        <p>
+          A curated program committee of leading researchers from computer vision, robotics, machine learning,
+          and autonomous systems will be announced shortly.
+        </p>
+        <p>
+          Confirmed invited reviewers from academia and industry will be listed here once finalized.
+        </p>
+      </div>
+    </section>
+
+    <section id="sponsors" class="section container">
+      <h2>Sponsors</h2>
+      <div class="card">
+        <p>Scene4X welcomes sponsorship from academic institutions, research labs, and industry partners.</p>
+        <p><strong>For sponsorship opportunities, please contact:</strong> <a href="mailto:scene4x@hotmail.com">scene4x@hotmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Scene4X Workshop at ECCV · Learning Spatial Worlds for Autonomous Intelligence</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
