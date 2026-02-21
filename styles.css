@@ -581,6 +581,17 @@ h1 {
   place-items: center;
 }
 
+.profile-photo {
+  width: 120px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  align-self: center;
+  margin-bottom: 0.6rem;
+  object-fit: cover;
+  border: 1px solid #b4ccec;
+  background: linear-gradient(135deg, rgba(0, 91, 187, 0.08), rgba(42, 166, 182, 0.1));
+}
+
 .logo-placeholder {
   margin-top: 0.65rem;
   width: 100%;
