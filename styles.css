@@ -72,7 +72,12 @@ body::after {
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
-  background: linear-gradient(110deg, #ffffff 0%, #f4f9ff 48%, #eaf8f6 100%);
+  background:
+    linear-gradient(112deg, rgba(255, 255, 255, 0.88) 0%, rgba(244, 249, 255, 0.83) 48%, rgba(234, 248, 246, 0.8) 100%),
+    url("https://media.eventhosts.cc/Conferences/ECCV2026/ECCV_Malmo%202026_hero.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero::before,
@@ -170,7 +175,7 @@ body::after {
   bottom: -0.6rem;
   width: min(56vw, 640px);
   height: 220px;
-  opacity: 0.9;
+  opacity: 0.72;
   pointer-events: none;
   mix-blend-mode: multiply;
 }
@@ -648,6 +653,10 @@ h1 {
 }
 
 @media (max-width: 920px) {
+  .hero {
+    background-position: 58% center;
+  }
+
   .two-col,
   .three-col,
   .slot {
